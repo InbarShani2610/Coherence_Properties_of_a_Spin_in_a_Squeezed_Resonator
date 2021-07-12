@@ -1,0 +1,255 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      9189,        247]
+NotebookOptionsPosition[      8733,        230]
+NotebookOutlinePosition[      9105,        246]
+CellTagsIndexPosition[      9062,        243]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"M", "=", 
+  RowBox[{"{", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"-", "\[Kappa]"}], ",", 
+      RowBox[{
+       RowBox[{"-", "I"}], "*", "\[Lambda]"}], ",", 
+      RowBox[{"I", "*", "\[Lambda]"}], ",", "0", ",", "0", ",", "0", ",", "0",
+       ",", "0", ",", "0", ",", "0"}], "}"}], ",", "\[IndentingNewLine]", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"-", "I"}], "*", "2", "*", "\[Lambda]"}], ",", "0", ",", 
+      RowBox[{
+       RowBox[{"I", "*", "2", "*", "\[Delta]"}], "-", "\[Kappa]"}], ",", "0", 
+      ",", "0", ",", "0", ",", "0", ",", "0", ",", "0", ",", 
+      RowBox[{
+       RowBox[{"-", "I"}], "*", "\[Lambda]"}]}], "}"}], ",", 
+    "\[IndentingNewLine]", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"I", "*", "2", "*", "\[Lambda]"}], ",", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"-", "I"}], "*", "2", "*", "\[Delta]"}], "-", "\[Kappa]"}], 
+      ",", "0", ",", "0", ",", "0", ",", "0", ",", "0", ",", "0", ",", "0", 
+      ",", 
+      RowBox[{"I", "*", "\[Lambda]"}]}], "}"}], ",", "\[IndentingNewLine]", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"-", "\[Kappa]"}], ",", 
+      RowBox[{"I", "*", "2", "*", "\[Lambda]"}], ",", 
+      RowBox[{
+       RowBox[{"-", "I"}], "*", "2", "*", "\[Lambda]"}], ",", "0", ",", 
+      RowBox[{"I", "*", "2", "*", "\[Lambda]"}], ",", 
+      RowBox[{
+       RowBox[{"-", "I"}], "*", "2", "*", "\[Lambda]"}], ",", 
+      RowBox[{
+       RowBox[{"-", "2"}], "*", "\[Kappa]"}], ",", "0", ",", "0", ",", "0"}], 
+     "}"}], ",", "\[IndentingNewLine]", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"-", "I"}], "*", "3", "*", "\[Lambda]"}], ",", "0", ",", "0", 
+      ",", "0", ",", 
+      RowBox[{
+       RowBox[{"I", "*", "2", "*", "\[Delta]"}], "-", 
+       RowBox[{"2", "*", "\[Kappa]"}]}], ",", "0", ",", 
+      RowBox[{
+       RowBox[{"-", "I"}], "*", "3", "*", "\[Lambda]"}], ",", "0", ",", 
+      RowBox[{"I", "*", "\[Lambda]"}], ",", "0"}], "}"}], ",", 
+    "\[IndentingNewLine]", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"I", "*", "3", "*", "\[Lambda]"}], ",", "0", ",", "0", ",", "0",
+       ",", "0", ",", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"-", "I"}], "*", "2", "*", "\[Delta]"}], "-", 
+       RowBox[{"2", "*", "\[Kappa]"}]}], ",", 
+      RowBox[{"I", "*", "3", "*", "\[Lambda]"}], ",", 
+      RowBox[{
+       RowBox[{"-", "I"}], "*", "\[Lambda]"}], ",", "0", ",", "0"}], "}"}], 
+    ",", "\[IndentingNewLine]", 
+    RowBox[{"{", 
+     RowBox[{"0", ",", 
+      RowBox[{"I", "*", "\[Lambda]"}], ",", 
+      RowBox[{
+       RowBox[{"-", "I"}], "*", "\[Lambda]"}], ",", "0", ",", 
+      RowBox[{"I", "*", "2", "*", "\[Lambda]"}], ",", 
+      RowBox[{
+       RowBox[{"-", "I"}], "*", "2", "*", "\[Lambda]"}], ",", 
+      RowBox[{
+       RowBox[{"-", "2"}], "*", "\[Kappa]"}], ",", "0", ",", "0", ",", "0"}], 
+     "}"}], ",", "\[IndentingNewLine]", 
+    RowBox[{"{", 
+     RowBox[{"0", ",", "0", ",", 
+      RowBox[{"I", "*", "6", "*", "\[Lambda]"}], ",", "0", ",", "0", ",", 
+      RowBox[{"I", "*", "4", "*", "\[Lambda]"}], ",", "0", ",", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"-", "I"}], "*", "4", "*", "\[Delta]"}], "-", 
+       RowBox[{"2", "*", "\[Kappa]"}]}], ",", "0", ",", "0"}], "}"}], ",", 
+    "\[IndentingNewLine]", 
+    RowBox[{"{", 
+     RowBox[{"0", ",", 
+      RowBox[{
+       RowBox[{"-", "I"}], "*", "6", "*", "\[Lambda]"}], ",", "0", ",", "0", 
+      ",", 
+      RowBox[{
+       RowBox[{"-", "I"}], "*", "4", "*", "\[Lambda]"}], ",", "0", ",", "0", 
+      ",", "0", ",", 
+      RowBox[{
+       RowBox[{"I", "*", "4", "*", "\[Delta]"}], "-", 
+       RowBox[{"2", "*", "\[Kappa]"}]}], ",", "0"}], "}"}], ",", 
+    "\[IndentingNewLine]", 
+    RowBox[{"{", 
+     RowBox[{
+     "0", ",", "0", ",", "0", ",", "0", ",", "0", ",", "0", ",", "0", ",", 
+      "0", ",", "0", ",", "0"}], "}"}]}], "}"}]}]], "Input",
+ CellChangeTimes->{{3.8092536896309824`*^9, 3.8092538408525453`*^9}, {
+   3.809253932252657*^9, 3.8092539755650516`*^9}, 3.8092540697162447`*^9, {
+   3.8092541665644894`*^9, 3.80925457950828*^9}, {3.8092546126200037`*^9, 
+   3.8092547019802337`*^9}, {3.809254742747961*^9, 3.809254921699292*^9}, {
+   3.809255032021685*^9, 3.809255341107357*^9}, 3.809255818475723*^9, {
+   3.8092602887308955`*^9, 3.809260291235431*^9}},
+ CellLabel->
+  "In[237]:=",ExpressionUUID->"fad8c176-1d5e-443e-8aef-cebc404e206f"],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{"(", "\[NoBreak]", GridBox[{
+     {
+      RowBox[{"-", "\[Kappa]"}], 
+      RowBox[{
+       RowBox[{"-", "\[ImaginaryI]"}], " ", "\[Lambda]"}], 
+      RowBox[{"\[ImaginaryI]", " ", "\[Lambda]"}], "0", "0", "0", "0", "0", 
+      "0", "0"},
+     {
+      RowBox[{
+       RowBox[{"-", "2"}], " ", "\[ImaginaryI]", " ", "\[Lambda]"}], "0", 
+      RowBox[{
+       RowBox[{"2", " ", "\[ImaginaryI]", " ", "\[Delta]"}], "-", 
+       "\[Kappa]"}], "0", "0", "0", "0", "0", "0", 
+      RowBox[{
+       RowBox[{"-", "\[ImaginaryI]"}], " ", "\[Lambda]"}]},
+     {
+      RowBox[{"2", " ", "\[ImaginaryI]", " ", "\[Lambda]"}], 
+      RowBox[{
+       RowBox[{
+        RowBox[{"-", "2"}], " ", "\[ImaginaryI]", " ", "\[Delta]"}], "-", 
+       "\[Kappa]"}], "0", "0", "0", "0", "0", "0", "0", 
+      RowBox[{"\[ImaginaryI]", " ", "\[Lambda]"}]},
+     {
+      RowBox[{"-", "\[Kappa]"}], 
+      RowBox[{"2", " ", "\[ImaginaryI]", " ", "\[Lambda]"}], 
+      RowBox[{
+       RowBox[{"-", "2"}], " ", "\[ImaginaryI]", " ", "\[Lambda]"}], "0", 
+      RowBox[{"2", " ", "\[ImaginaryI]", " ", "\[Lambda]"}], 
+      RowBox[{
+       RowBox[{"-", "2"}], " ", "\[ImaginaryI]", " ", "\[Lambda]"}], 
+      RowBox[{
+       RowBox[{"-", "2"}], " ", "\[Kappa]"}], "0", "0", "0"},
+     {
+      RowBox[{
+       RowBox[{"-", "3"}], " ", "\[ImaginaryI]", " ", "\[Lambda]"}], "0", "0",
+       "0", 
+      RowBox[{
+       RowBox[{"2", " ", "\[ImaginaryI]", " ", "\[Delta]"}], "-", 
+       RowBox[{"2", " ", "\[Kappa]"}]}], "0", 
+      RowBox[{
+       RowBox[{"-", "3"}], " ", "\[ImaginaryI]", " ", "\[Lambda]"}], "0", 
+      RowBox[{"\[ImaginaryI]", " ", "\[Lambda]"}], "0"},
+     {
+      RowBox[{"3", " ", "\[ImaginaryI]", " ", "\[Lambda]"}], "0", "0", "0", 
+      "0", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"-", "2"}], " ", "\[ImaginaryI]", " ", "\[Delta]"}], "-", 
+       RowBox[{"2", " ", "\[Kappa]"}]}], 
+      RowBox[{"3", " ", "\[ImaginaryI]", " ", "\[Lambda]"}], 
+      RowBox[{
+       RowBox[{"-", "\[ImaginaryI]"}], " ", "\[Lambda]"}], "0", "0"},
+     {"0", 
+      RowBox[{"\[ImaginaryI]", " ", "\[Lambda]"}], 
+      RowBox[{
+       RowBox[{"-", "\[ImaginaryI]"}], " ", "\[Lambda]"}], "0", 
+      RowBox[{"2", " ", "\[ImaginaryI]", " ", "\[Lambda]"}], 
+      RowBox[{
+       RowBox[{"-", "2"}], " ", "\[ImaginaryI]", " ", "\[Lambda]"}], 
+      RowBox[{
+       RowBox[{"-", "2"}], " ", "\[Kappa]"}], "0", "0", "0"},
+     {"0", "0", 
+      RowBox[{"6", " ", "\[ImaginaryI]", " ", "\[Lambda]"}], "0", "0", 
+      RowBox[{"4", " ", "\[ImaginaryI]", " ", "\[Lambda]"}], "0", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"-", "4"}], " ", "\[ImaginaryI]", " ", "\[Delta]"}], "-", 
+       RowBox[{"2", " ", "\[Kappa]"}]}], "0", "0"},
+     {"0", 
+      RowBox[{
+       RowBox[{"-", "6"}], " ", "\[ImaginaryI]", " ", "\[Lambda]"}], "0", "0", 
+      RowBox[{
+       RowBox[{"-", "4"}], " ", "\[ImaginaryI]", " ", "\[Lambda]"}], "0", "0",
+       "0", 
+      RowBox[{
+       RowBox[{"4", " ", "\[ImaginaryI]", " ", "\[Delta]"}], "-", 
+       RowBox[{"2", " ", "\[Kappa]"}]}], "0"},
+     {"0", "0", "0", "0", "0", "0", "0", "0", "0", "0"}
+    },
+    GridBoxAlignment->{
+     "Columns" -> {{Center}}, "ColumnsIndexed" -> {}, "Rows" -> {{Baseline}}, 
+      "RowsIndexed" -> {}},
+    GridBoxSpacings->{"Columns" -> {
+        Offset[0.27999999999999997`], {
+         Offset[0.7]}, 
+        Offset[0.27999999999999997`]}, "ColumnsIndexed" -> {}, "Rows" -> {
+        Offset[0.2], {
+         Offset[0.4]}, 
+        Offset[0.2]}, "RowsIndexed" -> {}}], "\[NoBreak]", ")"}], 
+  TraditionalForm]], "Output",
+ CellChangeTimes->{3.809260305351991*^9},
+ CellLabel->
+  "Out[237]=",ExpressionUUID->"8f0f089a-92a7-4307-b7b0-5d0a41be6e53"]
+}, Open  ]]
+},
+WindowSize->{1904, 989},
+WindowMargins->{{-8, Automatic}, {Automatic, 0}},
+Magnification:>1.6 Inherited,
+FrontEndVersion->"11.3 for Microsoft Windows (64-bit) (March 6, 2018)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 4409, 109, 316, "Input",ExpressionUUID->"fad8c176-1d5e-443e-8aef-cebc404e206f"],
+Cell[4992, 133, 3725, 94, 291, "Output",ExpressionUUID->"8f0f089a-92a7-4307-b7b0-5d0a41be6e53"]
+}, Open  ]]
+}
+]
+*)
+

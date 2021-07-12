@@ -1,0 +1,617 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     22032,        607]
+NotebookOptionsPosition[     21240,        585]
+NotebookOutlinePosition[     21615,        601]
+CellTagsIndexPosition[     21572,        598]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"A", "[", "\[Tau]_", "]"}], "=", 
+  RowBox[{"FullSimplify", "[", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"(", 
+      RowBox[{
+       SuperscriptBox["\[Lambda]", "2"], " ", 
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{"2", " ", "\[Delta]", " ", 
+          RowBox[{"(", 
+           RowBox[{"\[Delta]", "-", 
+            RowBox[{"\[ImaginaryI]", " ", "\[Kappa]"}]}], ")"}], " ", 
+          SqrtBox[
+           RowBox[{
+            SuperscriptBox["\[Delta]", "2"], "-", 
+            SuperscriptBox["\[Lambda]", "2"]}]], " ", 
+          SuperscriptBox["\[ExponentialE]", 
+           RowBox[{
+            RowBox[{"-", "\[Kappa]"}], " ", "\[Tau]"}]], " ", 
+          RowBox[{"(", 
+           RowBox[{
+            RowBox[{"4", " ", 
+             SuperscriptBox["\[Delta]", "2"]}], "+", 
+            SuperscriptBox["\[Kappa]", "2"], "-", 
+            RowBox[{"4", " ", 
+             SuperscriptBox["\[Lambda]", "2"]}]}], ")"}]}], "-", 
+         RowBox[{
+          RowBox[{"(", 
+           RowBox[{
+            RowBox[{"\[Sqrt]", 
+             RowBox[{"(", 
+              RowBox[{
+               RowBox[{"(", 
+                RowBox[{"\[Delta]", "-", "\[Lambda]"}], ")"}], " ", 
+               RowBox[{"(", 
+                RowBox[{"\[Delta]", "+", "\[Lambda]"}], ")"}]}], ")"}]}], "-",
+             "\[Delta]"}], ")"}], " ", 
+          RowBox[{"(", 
+           RowBox[{
+            RowBox[{"-", 
+             RowBox[{"(", 
+              RowBox[{"4", " ", 
+               SuperscriptBox["\[Delta]", "4"]}], ")"}]}], "+", 
+            RowBox[{"4", " ", 
+             SuperscriptBox["\[Delta]", "3"], " ", 
+             RowBox[{"(", 
+              RowBox[{
+               RowBox[{"\[Sqrt]", 
+                RowBox[{"(", 
+                 RowBox[{
+                  RowBox[{"(", 
+                   RowBox[{"\[Delta]", "-", "\[Lambda]"}], ")"}], " ", 
+                  RowBox[{"(", 
+                   RowBox[{"\[Delta]", "+", "\[Lambda]"}], ")"}]}], ")"}]}], 
+               "-", 
+               RowBox[{"\[ImaginaryI]", " ", "\[Kappa]"}]}], ")"}]}], "+", 
+            RowBox[{
+             SuperscriptBox["\[Delta]", "2"], " ", 
+             RowBox[{"(", 
+              RowBox[{
+               RowBox[{"8", " ", 
+                SuperscriptBox["\[Lambda]", "2"]}], "-", 
+               RowBox[{"3", " ", 
+                SuperscriptBox["\[Kappa]", "2"]}]}], ")"}]}], "-", 
+            RowBox[{"\[Delta]", " ", 
+             RowBox[{"(", 
+              RowBox[{
+               RowBox[{
+                SuperscriptBox["\[Kappa]", "2"], " ", 
+                SqrtBox[
+                 RowBox[{
+                  SuperscriptBox["\[Delta]", "2"], "-", 
+                  SuperscriptBox["\[Lambda]", "2"]}]]}], "+", 
+               RowBox[{"4", " ", 
+                SuperscriptBox["\[Lambda]", "2"], " ", 
+                SqrtBox[
+                 RowBox[{
+                  SuperscriptBox["\[Delta]", "2"], "-", 
+                  SuperscriptBox["\[Lambda]", "2"]}]]}], "-", 
+               RowBox[{"4", " ", "\[ImaginaryI]", " ", "\[Kappa]", " ", 
+                SuperscriptBox["\[Lambda]", "2"]}]}], ")"}]}], "+", 
+            RowBox[{"\[ImaginaryI]", " ", 
+             SuperscriptBox["\[Kappa]", "3"], " ", 
+             RowBox[{"\[Sqrt]", 
+              RowBox[{"(", 
+               RowBox[{
+                RowBox[{"(", 
+                 RowBox[{"\[Delta]", "-", "\[Lambda]"}], ")"}], " ", 
+                RowBox[{"(", 
+                 RowBox[{"\[Delta]", "+", "\[Lambda]"}], ")"}]}], ")"}]}]}], 
+            "+", 
+            RowBox[{"3", " ", 
+             SuperscriptBox["\[Kappa]", "2"], " ", 
+             SuperscriptBox["\[Lambda]", "2"]}], "-", 
+            RowBox[{"4", " ", 
+             SuperscriptBox["\[Lambda]", "4"]}]}], ")"}], " ", 
+          SuperscriptBox["\[ExponentialE]", 
+           RowBox[{"\[Tau]", " ", 
+            RowBox[{"(", 
+             RowBox[{
+              RowBox[{"2", " ", 
+               SqrtBox[
+                RowBox[{
+                 SuperscriptBox["\[Lambda]", "2"], "-", 
+                 SuperscriptBox["\[Delta]", "2"]}]]}], "-", "\[Kappa]"}], 
+             ")"}]}]]}], "+", 
+         RowBox[{
+          RowBox[{"(", 
+           RowBox[{
+            RowBox[{"\[Sqrt]", 
+             RowBox[{"(", 
+              RowBox[{
+               RowBox[{"(", 
+                RowBox[{"\[Delta]", "-", "\[Lambda]"}], ")"}], " ", 
+               RowBox[{"(", 
+                RowBox[{"\[Delta]", "+", "\[Lambda]"}], ")"}]}], ")"}]}], "+",
+             "\[Delta]"}], ")"}], " ", 
+          RowBox[{"(", 
+           RowBox[{
+            RowBox[{"4", " ", 
+             SuperscriptBox["\[Delta]", "4"]}], "+", 
+            RowBox[{"4", " ", 
+             SuperscriptBox["\[Delta]", "3"], " ", 
+             RowBox[{"(", 
+              RowBox[{
+               RowBox[{"\[Sqrt]", 
+                RowBox[{"(", 
+                 RowBox[{
+                  RowBox[{"(", 
+                   RowBox[{"\[Delta]", "-", "\[Lambda]"}], ")"}], " ", 
+                  RowBox[{"(", 
+                   RowBox[{"\[Delta]", "+", "\[Lambda]"}], ")"}]}], ")"}]}], 
+               "+", 
+               RowBox[{"\[ImaginaryI]", " ", "\[Kappa]"}]}], ")"}]}], "+", 
+            RowBox[{
+             SuperscriptBox["\[Delta]", "2"], " ", 
+             RowBox[{"(", 
+              RowBox[{
+               RowBox[{"3", " ", 
+                SuperscriptBox["\[Kappa]", "2"]}], "-", 
+               RowBox[{"8", " ", 
+                SuperscriptBox["\[Lambda]", "2"]}]}], ")"}]}], "+", 
+            RowBox[{"\[ImaginaryI]", " ", 
+             SuperscriptBox["\[Kappa]", "3"], " ", 
+             RowBox[{"\[Sqrt]", 
+              RowBox[{"(", 
+               RowBox[{
+                RowBox[{"(", 
+                 RowBox[{"\[Delta]", "-", "\[Lambda]"}], ")"}], " ", 
+                RowBox[{"(", 
+                 RowBox[{"\[Delta]", "+", "\[Lambda]"}], ")"}]}], ")"}]}]}], 
+            "-", 
+            RowBox[{"\[Delta]", " ", 
+             RowBox[{"(", 
+              RowBox[{
+               RowBox[{
+                SuperscriptBox["\[Kappa]", "2"], " ", 
+                RowBox[{"\[Sqrt]", 
+                 RowBox[{"(", 
+                  RowBox[{
+                   RowBox[{"(", 
+                    RowBox[{"\[Delta]", "-", "\[Lambda]"}], ")"}], " ", 
+                   RowBox[{"(", 
+                    RowBox[{"\[Delta]", "+", "\[Lambda]"}], ")"}]}], 
+                  ")"}]}]}], "+", 
+               RowBox[{"4", " ", 
+                SuperscriptBox["\[Lambda]", "2"], " ", 
+                RowBox[{"\[Sqrt]", 
+                 RowBox[{"(", 
+                  RowBox[{
+                   RowBox[{"(", 
+                    RowBox[{"\[Delta]", "-", "\[Lambda]"}], ")"}], " ", 
+                   RowBox[{"(", 
+                    RowBox[{"\[Delta]", "+", "\[Lambda]"}], ")"}]}], 
+                  ")"}]}]}], "+", 
+               RowBox[{"4", " ", "\[ImaginaryI]", " ", "\[Kappa]", " ", 
+                SuperscriptBox["\[Lambda]", "2"]}]}], ")"}]}], "-", 
+            RowBox[{"3", " ", 
+             SuperscriptBox["\[Kappa]", "2"], " ", 
+             SuperscriptBox["\[Lambda]", "2"]}], "+", 
+            RowBox[{"4", " ", 
+             SuperscriptBox["\[Lambda]", "4"]}]}], ")"}], " ", 
+          SuperscriptBox["\[ExponentialE]", 
+           RowBox[{"\[Tau]", " ", 
+            RowBox[{"(", 
+             RowBox[{"-", 
+              RowBox[{"(", 
+               RowBox[{
+                RowBox[{"2", " ", 
+                 SqrtBox[
+                  RowBox[{
+                   SuperscriptBox["\[Lambda]", "2"], "-", 
+                   SuperscriptBox["\[Delta]", "2"]}]]}], "+", "\[Kappa]"}], 
+               ")"}]}], ")"}]}]]}], "+", 
+         RowBox[{"8", " ", 
+          SuperscriptBox["\[Lambda]", "2"], " ", 
+          SuperscriptBox[
+           RowBox[{"(", 
+            RowBox[{
+             RowBox[{"(", 
+              RowBox[{"\[Delta]", "-", "\[Lambda]"}], ")"}], " ", 
+             RowBox[{"(", 
+              RowBox[{"\[Delta]", "+", "\[Lambda]"}], ")"}]}], ")"}], 
+           RowBox[{"3", "/", "2"}]]}]}], ")"}]}], ")"}], "/", 
+     RowBox[{"(", 
+      RowBox[{"2", " ", 
+       SuperscriptBox[
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{"(", 
+           RowBox[{"\[Delta]", "-", "\[Lambda]"}], ")"}], " ", 
+          RowBox[{"(", 
+           RowBox[{"\[Delta]", "+", "\[Lambda]"}], ")"}]}], ")"}], 
+        RowBox[{"3", "/", "2"}]], " ", 
+       SuperscriptBox[
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{"4", " ", 
+           SuperscriptBox["\[Delta]", "2"]}], "+", 
+          SuperscriptBox["\[Kappa]", "2"], "-", 
+          RowBox[{"4", " ", 
+           SuperscriptBox["\[Lambda]", "2"]}]}], ")"}], "2"]}], ")"}]}], ",", 
+    RowBox[{"Assumptions", "\[Rule]", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"\[Delta]", ">", "\[Lambda]"}], ",", 
+       RowBox[{"\[Lambda]", ">", "0"}], ",", 
+       RowBox[{"\[Kappa]", ">", "0"}]}], "}"}]}]}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.8103565813972254`*^9, 3.8103565858652363`*^9}, {
+  3.8103741513782034`*^9, 3.8103741592638006`*^9}},
+ CellLabel->"In[55]:=",ExpressionUUID->"fa3458e4-3ab4-4d71-bd7e-aa61a8641944"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(", 
+   RowBox[{
+    SuperscriptBox["\[Lambda]", "2"], " ", 
+    RowBox[{"(", 
+     RowBox[{
+      RowBox[{"8", " ", 
+       SuperscriptBox["\[Lambda]", "2"], " ", 
+       SuperscriptBox[
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{"(", 
+           RowBox[{"\[Delta]", "-", "\[Lambda]"}], ")"}], " ", 
+          RowBox[{"(", 
+           RowBox[{"\[Delta]", "+", "\[Lambda]"}], ")"}]}], ")"}], 
+        RowBox[{"3", "/", "2"}]]}], "+", 
+      RowBox[{"2", " ", 
+       SuperscriptBox["\[ExponentialE]", 
+        RowBox[{
+         RowBox[{"-", "\[Kappa]"}], " ", "\[Tau]"}]], " ", "\[Delta]", " ", 
+       RowBox[{"(", 
+        RowBox[{"\[Delta]", "-", 
+         RowBox[{"\[ImaginaryI]", " ", "\[Kappa]"}]}], ")"}], " ", 
+       SqrtBox[
+        RowBox[{
+         RowBox[{"(", 
+          RowBox[{"\[Delta]", "-", "\[Lambda]"}], ")"}], " ", 
+         RowBox[{"(", 
+          RowBox[{"\[Delta]", "+", "\[Lambda]"}], ")"}]}]], " ", 
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{"4", " ", 
+          SuperscriptBox["\[Delta]", "2"]}], "+", 
+         SuperscriptBox["\[Kappa]", "2"], "-", 
+         RowBox[{"4", " ", 
+          SuperscriptBox["\[Lambda]", "2"]}]}], ")"}]}], "-", 
+      RowBox[{
+       SuperscriptBox["\[ExponentialE]", 
+        RowBox[{
+         RowBox[{"(", 
+          RowBox[{
+           RowBox[{"-", "\[Kappa]"}], "+", 
+           RowBox[{"2", " ", 
+            SqrtBox[
+             RowBox[{
+              RowBox[{"-", 
+               SuperscriptBox["\[Delta]", "2"]}], "+", 
+              SuperscriptBox["\[Lambda]", "2"]}]]}]}], ")"}], " ", 
+         "\[Tau]"}]], " ", 
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{"-", "\[Delta]"}], "+", 
+         SqrtBox[
+          RowBox[{
+           SuperscriptBox["\[Delta]", "2"], "-", 
+           SuperscriptBox["\[Lambda]", "2"]}]]}], ")"}], " ", 
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"-", "4"}], " ", 
+          SuperscriptBox["\[Delta]", "4"]}], "+", 
+         RowBox[{"3", " ", 
+          SuperscriptBox["\[Kappa]", "2"], " ", 
+          SuperscriptBox["\[Lambda]", "2"]}], "-", 
+         RowBox[{"4", " ", 
+          SuperscriptBox["\[Lambda]", "4"]}], "+", 
+         RowBox[{"\[ImaginaryI]", " ", 
+          SuperscriptBox["\[Kappa]", "3"], " ", 
+          SqrtBox[
+           RowBox[{
+            SuperscriptBox["\[Delta]", "2"], "-", 
+            SuperscriptBox["\[Lambda]", "2"]}]]}], "+", 
+         RowBox[{
+          SuperscriptBox["\[Delta]", "2"], " ", 
+          RowBox[{"(", 
+           RowBox[{
+            RowBox[{
+             RowBox[{"-", "3"}], " ", 
+             SuperscriptBox["\[Kappa]", "2"]}], "+", 
+            RowBox[{"8", " ", 
+             SuperscriptBox["\[Lambda]", "2"]}]}], ")"}]}], "+", 
+         RowBox[{"4", " ", 
+          SuperscriptBox["\[Delta]", "3"], " ", 
+          RowBox[{"(", 
+           RowBox[{
+            RowBox[{
+             RowBox[{"-", "\[ImaginaryI]"}], " ", "\[Kappa]"}], "+", 
+            SqrtBox[
+             RowBox[{
+              SuperscriptBox["\[Delta]", "2"], "-", 
+              SuperscriptBox["\[Lambda]", "2"]}]]}], ")"}]}], "-", 
+         RowBox[{"\[Delta]", " ", 
+          RowBox[{"(", 
+           RowBox[{
+            RowBox[{
+             RowBox[{"-", "4"}], " ", "\[ImaginaryI]", " ", "\[Kappa]", " ", 
+             SuperscriptBox["\[Lambda]", "2"]}], "+", 
+            RowBox[{
+             SuperscriptBox["\[Kappa]", "2"], " ", 
+             SqrtBox[
+              RowBox[{
+               SuperscriptBox["\[Delta]", "2"], "-", 
+               SuperscriptBox["\[Lambda]", "2"]}]]}], "+", 
+            RowBox[{"4", " ", 
+             SuperscriptBox["\[Lambda]", "2"], " ", 
+             SqrtBox[
+              RowBox[{
+               SuperscriptBox["\[Delta]", "2"], "-", 
+               SuperscriptBox["\[Lambda]", "2"]}]]}]}], ")"}]}]}], ")"}]}], 
+      "+", 
+      RowBox[{
+       SuperscriptBox["\[ExponentialE]", 
+        RowBox[{
+         RowBox[{"-", 
+          RowBox[{"(", 
+           RowBox[{"\[Kappa]", "+", 
+            RowBox[{"2", " ", 
+             SqrtBox[
+              RowBox[{
+               RowBox[{"-", 
+                SuperscriptBox["\[Delta]", "2"]}], "+", 
+               SuperscriptBox["\[Lambda]", "2"]}]]}]}], ")"}]}], " ", 
+         "\[Tau]"}]], " ", 
+       RowBox[{"(", 
+        RowBox[{"\[Delta]", "+", 
+         SqrtBox[
+          RowBox[{
+           SuperscriptBox["\[Delta]", "2"], "-", 
+           SuperscriptBox["\[Lambda]", "2"]}]]}], ")"}], " ", 
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{"4", " ", 
+          SuperscriptBox["\[Delta]", "4"]}], "-", 
+         RowBox[{"3", " ", 
+          SuperscriptBox["\[Kappa]", "2"], " ", 
+          SuperscriptBox["\[Lambda]", "2"]}], "+", 
+         RowBox[{"4", " ", 
+          SuperscriptBox["\[Lambda]", "4"]}], "+", 
+         RowBox[{
+          SuperscriptBox["\[Delta]", "2"], " ", 
+          RowBox[{"(", 
+           RowBox[{
+            RowBox[{"3", " ", 
+             SuperscriptBox["\[Kappa]", "2"]}], "-", 
+            RowBox[{"8", " ", 
+             SuperscriptBox["\[Lambda]", "2"]}]}], ")"}]}], "+", 
+         RowBox[{"\[ImaginaryI]", " ", 
+          SuperscriptBox["\[Kappa]", "3"], " ", 
+          SqrtBox[
+           RowBox[{
+            SuperscriptBox["\[Delta]", "2"], "-", 
+            SuperscriptBox["\[Lambda]", "2"]}]]}], "+", 
+         RowBox[{"4", " ", 
+          SuperscriptBox["\[Delta]", "3"], " ", 
+          RowBox[{"(", 
+           RowBox[{
+            RowBox[{"\[ImaginaryI]", " ", "\[Kappa]"}], "+", 
+            SqrtBox[
+             RowBox[{
+              SuperscriptBox["\[Delta]", "2"], "-", 
+              SuperscriptBox["\[Lambda]", "2"]}]]}], ")"}]}], "-", 
+         RowBox[{"\[Delta]", " ", 
+          RowBox[{"(", 
+           RowBox[{
+            RowBox[{"4", " ", "\[ImaginaryI]", " ", "\[Kappa]", " ", 
+             SuperscriptBox["\[Lambda]", "2"]}], "+", 
+            RowBox[{
+             SuperscriptBox["\[Kappa]", "2"], " ", 
+             SqrtBox[
+              RowBox[{
+               SuperscriptBox["\[Delta]", "2"], "-", 
+               SuperscriptBox["\[Lambda]", "2"]}]]}], "+", 
+            RowBox[{"4", " ", 
+             SuperscriptBox["\[Lambda]", "2"], " ", 
+             SqrtBox[
+              RowBox[{
+               SuperscriptBox["\[Delta]", "2"], "-", 
+               SuperscriptBox["\[Lambda]", "2"]}]]}]}], ")"}]}]}], ")"}]}]}], 
+     ")"}]}], ")"}], "/", 
+  RowBox[{"(", 
+   RowBox[{"2", " ", 
+    SuperscriptBox[
+     RowBox[{"(", 
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{"\[Delta]", "-", "\[Lambda]"}], ")"}], " ", 
+       RowBox[{"(", 
+        RowBox[{"\[Delta]", "+", "\[Lambda]"}], ")"}]}], ")"}], 
+     RowBox[{"3", "/", "2"}]], " ", 
+    SuperscriptBox[
+     RowBox[{"(", 
+      RowBox[{
+       RowBox[{"4", " ", 
+        SuperscriptBox["\[Delta]", "2"]}], "+", 
+       SuperscriptBox["\[Kappa]", "2"], "-", 
+       RowBox[{"4", " ", 
+        SuperscriptBox["\[Lambda]", "2"]}]}], ")"}], "2"]}], 
+   ")"}]}]], "Output",
+ CellChangeTimes->{{3.810356575948821*^9, 3.8103565866137857`*^9}, 
+   3.8103741863549724`*^9},
+ CellLabel->"Out[55]=",ExpressionUUID->"b38ca1b0-3b4b-45c7-82cf-8dd736364717"]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"IA", "[", "\[Tau]_", "]"}], "=", 
+  RowBox[{"FullSimplify", "[", 
+   RowBox[{
+    RowBox[{"Integrate", "[", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"A", "[", "\[Tau]", "]"}], "-", 
+       RowBox[{
+        RowBox[{"(", 
+         RowBox[{"4", "*", 
+          RowBox[{"\[Lambda]", "^", "4"}]}], ")"}], "/", 
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{"(", 
+           RowBox[{
+            RowBox[{"4", "*", 
+             RowBox[{"\[Delta]", "^", "2"}]}], "+", 
+            RowBox[{"\[Kappa]", "^", "2"}], "-", 
+            RowBox[{"4", "*", 
+             RowBox[{"\[Lambda]", "^", "2"}]}]}], ")"}], "^", "2"}], 
+         ")"}]}]}], ",", 
+      RowBox[{"{", 
+       RowBox[{"\[Tau]", ",", "0", ",", "\[Infinity]"}], "}"}]}], "]"}], ",", 
+    RowBox[{"Assumptions", "\[Rule]", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"\[Delta]", ">", "\[Lambda]"}], ",", 
+       RowBox[{"\[Lambda]", ">", "0"}], ",", 
+       RowBox[{"\[Kappa]", ">", "0"}]}], "}"}]}]}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.810356589406089*^9, 3.810356630387229*^9}, {
+   3.810356712641184*^9, 3.810356719543685*^9}, {3.8103568114281564`*^9, 
+   3.8103568831899185`*^9}, {3.8103592935614595`*^9, 3.8103592938316016`*^9}, 
+   3.8103611911405015`*^9, 3.81036124077005*^9, {3.810361397709367*^9, 
+   3.81036141285931*^9}},
+ CellLabel->"In[54]:=",ExpressionUUID->"92bd8623-5204-4082-a578-97833f7e7ed8"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{"FullSimplify", "[", 
+   RowBox[{
+    RowBox[{"Re", "[", 
+     RowBox[{
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{
+         SuperscriptBox["\[Lambda]", "2"], " ", 
+         SuperscriptBox[
+          RowBox[{"(", 
+           RowBox[{
+            RowBox[{"2", " ", "\[Delta]"}], "+", 
+            RowBox[{"\[ImaginaryI]", " ", "\[Kappa]"}]}], ")"}], "2"], " ", 
+         RowBox[{"(", 
+          RowBox[{
+           RowBox[{"4", " ", 
+            SuperscriptBox["\[Delta]", "2"]}], "-", 
+           RowBox[{
+           "12", " ", "\[ImaginaryI]", " ", "\[Delta]", " ", "\[Kappa]"}], 
+           "-", 
+           RowBox[{"5", " ", 
+            SuperscriptBox["\[Kappa]", "2"]}]}], ")"}]}], "-", 
+        RowBox[{"4", " ", 
+         SuperscriptBox["\[Lambda]", "4"], " ", 
+         RowBox[{"(", 
+          RowBox[{
+           RowBox[{"4", " ", 
+            SuperscriptBox["\[Delta]", "2"]}], "-", 
+           RowBox[{
+           "8", " ", "\[ImaginaryI]", " ", "\[Delta]", " ", "\[Kappa]"}], "+", 
+           SuperscriptBox["\[Kappa]", "2"]}], ")"}]}]}], ")"}], "/", 
+      RowBox[{"(", 
+       RowBox[{"\[Kappa]", " ", 
+        SuperscriptBox[
+         RowBox[{"(", 
+          RowBox[{
+           RowBox[{"4", " ", 
+            SuperscriptBox["\[Delta]", "2"]}], "+", 
+           SuperscriptBox["\[Kappa]", "2"], "-", 
+           RowBox[{"4", " ", 
+            SuperscriptBox["\[Lambda]", "2"]}]}], ")"}], "3"]}], ")"}]}], 
+     "]"}], ",", 
+    RowBox[{"Assumptions", "\[Rule]", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"\[Delta]", ">", "\[Lambda]"}], ",", 
+       RowBox[{"\[Lambda]", ">", "0"}], ",", 
+       RowBox[{"\[Kappa]", ">", "0"}]}], "}"}]}]}], "]"}], TraditionalForm]], \
+"Input",
+ CellChangeTimes->{{3.810379228430092*^9, 3.810379239963455*^9}},
+ CellLabel->"In[60]:=",ExpressionUUID->"ed6bb8ce-f563-4fba-b347-758a647f1e06"],
+
+Cell[BoxData[
+ FractionBox[
+  RowBox[{
+   RowBox[{"(", 
+    RowBox[{
+     RowBox[{"4", " ", 
+      SuperscriptBox["\[Delta]", "2"]}], "+", 
+     SuperscriptBox["\[Kappa]", "2"]}], ")"}], " ", 
+   SuperscriptBox["\[Lambda]", "2"], " ", 
+   RowBox[{"(", 
+    RowBox[{
+     RowBox[{"4", " ", 
+      SuperscriptBox["\[Delta]", "2"]}], "+", 
+     RowBox[{"5", " ", 
+      SuperscriptBox["\[Kappa]", "2"]}], "-", 
+     RowBox[{"4", " ", 
+      SuperscriptBox["\[Lambda]", "2"]}]}], ")"}]}], 
+  RowBox[{"\[Kappa]", " ", 
+   SuperscriptBox[
+    RowBox[{"(", 
+     RowBox[{
+      RowBox[{"4", " ", 
+       SuperscriptBox["\[Delta]", "2"]}], "+", 
+      SuperscriptBox["\[Kappa]", "2"], "-", 
+      RowBox[{"4", " ", 
+       SuperscriptBox["\[Lambda]", "2"]}]}], ")"}], "3"]}]]], "Output",
+ CellChangeTimes->{3.8103792406639657`*^9},
+ CellLabel->"Out[60]=",ExpressionUUID->"02fa7301-0db0-497d-bd3a-a52025188d4a"]
+}, Open  ]]
+},
+WindowSize->{1356, 835},
+WindowMargins->{{151, Automatic}, {53, Automatic}},
+Magnification:>1.55 Inherited,
+FrontEndVersion->"11.3 for Microsoft Windows (64-bit) (March 6, 2018)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 9174, 233, 535, "Input",ExpressionUUID->"fa3458e4-3ab4-4d71-bd7e-aa61a8641944"],
+Cell[9757, 257, 7207, 201, 362, "Output",ExpressionUUID->"b38ca1b0-3b4b-45c7-82cf-8dd736364717"]
+}, Open  ]],
+Cell[16979, 461, 1428, 36, 73, "Input",ExpressionUUID->"92bd8623-5204-4082-a578-97833f7e7ed8"],
+Cell[CellGroupData[{
+Cell[18432, 501, 1887, 52, 50, InheritFromParent,ExpressionUUID->"ed6bb8ce-f563-4fba-b347-758a647f1e06"],
+Cell[20322, 555, 902, 27, 122, "Output",ExpressionUUID->"02fa7301-0db0-497d-bd3a-a52025188d4a"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+
